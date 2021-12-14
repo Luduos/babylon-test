@@ -2,10 +2,8 @@ import { Engine, Scene } from "@babylonjs/core";
 
 export default abstract class SceneObject{
     protected _scene : Scene;
-    protected _engine : Engine;
 
-    constructor(engine : Engine, scene : Scene){
-        this._engine = engine;
+    constructor(scene : Scene){
         this._scene = scene;
     }
 

@@ -11,8 +11,9 @@
 
 canvas{
     overscroll-behavior: none;
-    width: 90%;
-    height: 90%;
-    align-self:center;
-    justify-self: center;
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 50%;
+    height: 50%;
 }
